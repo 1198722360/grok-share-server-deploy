@@ -34,8 +34,8 @@ services:
       #PROXY_URL: "http://192.168.1.5:2080"
       #CHATPROXY: 
       # 内容审核及速率限制
-      AUDIT_LIMIT_URL: "http://chatgpt-share-max/job/audit_limit"
-      OAUTH_URL: "http://chatgpt-share-max/job/grok/oauth"
+      AUDIT_LIMIT_URL: "http://chatgpt-share-max:6777/job/audit_limit"
+      OAUTH_URL: "http://chatgpt-share-max:6777/job/grok/oauth"
       ORIGIN: "https://demo-grok.xxsxx.fun"
     volumes:
       - ./config.yaml:/app/config.yaml
