@@ -14,8 +14,6 @@ services:
       MYSQL_DATABASE: "cool" # 业务库名
       MYSQL_USER: "cool" # 业务库用户名
       MYSQL_PASSWORD: "123123" # 业务库密码
-    ports:
-      - 33068:3306
   redis-grok:
     image: redis
     # command: --requirepass "12345678" # redis库密码,不需要密码注释本行
