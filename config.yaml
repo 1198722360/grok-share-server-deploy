@@ -1,7 +1,7 @@
 database:
   default: # 数据源名称,当不指定数据源时 default 为默认数据源
     type: "mysql" # 数据库类型
-    host: "grok-mysql" # 数据库地址
+    host: "mysql-grok" # 数据库地址
     port: "3306" # 数据库端口
     user: "root" # 数据库用户名
     pass: "123456" # 数据库密码
@@ -14,7 +14,7 @@ database:
 
 redis:
   cool:
-    address: "grok-redis:6379"
+    address: "redis-grok:6379"
     db: 0
 
 
